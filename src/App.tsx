@@ -49,12 +49,12 @@ const Demo = () => {
         </MonthRangePicker>
 
         <DateRangeComparator>
-          <DateRangeComparator.Trigger placeholder='Compare date ranges' mt={4} />
+          <DateRangeComparator.Trigger size='l' placeholder='Compare date ranges' mt={4} />
           <DateRangeComparator.Popper />
         </DateRangeComparator>
 
         <MonthDateRangeComparator>
-          <MonthDateRangeComparator.Trigger placeholder='Compare month ranges' mt={4} />
+          <MonthDateRangeComparator.Trigger size='l' placeholder='Compare month ranges' mt={4} />
           <MonthDateRangeComparator.Popper />
         </MonthDateRangeComparator>
       </Flex>

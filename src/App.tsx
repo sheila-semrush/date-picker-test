@@ -19,7 +19,7 @@ const Demo = () => {
         <Text tag='label' size={300} htmlFor='date-picker-1' mt={4}>
           Single date
         </Text>
-        <DatePicker size='l'>
+        <DatePicker size='l' disabled={[[new Date(), false]]}>
           <DatePicker.Trigger id='date-picker-1' />
           <DatePicker.Popper />
         </DatePicker>
@@ -27,7 +27,7 @@ const Demo = () => {
         <Text tag='label' size={300} htmlFor='date-picker-2' mt={4}>
           Date range
         </Text>
-        <DateRangePicker>
+        <DateRangePicker disabled={[[new Date(), false]]}>
           <DateRangePicker.Trigger size='l' id='date-picker-2' />
           <DateRangePicker.Popper />
         </DateRangePicker>

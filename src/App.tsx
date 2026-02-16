@@ -1,6 +1,7 @@
 import { Flex } from '@semcore/base-components';
 import { DatePicker, DateRangePicker } from '@semcore/date-picker';
 import { Text } from '@semcore/typography';
+import './App.css';
 import React from 'react';
 
 const Demo = () => {

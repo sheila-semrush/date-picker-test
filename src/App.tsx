@@ -85,7 +85,7 @@ const Demo = () => {
                 }}
               >
                 <Notice.Label tag={Warning} aria-hidden={false} aria-label='Warning: ' role='img' />
-                <Notice.Text>Currently, data can be displayed for no more than 60 days.</Notice.Text>
+                <Notice.Text>Currently, no more than 60 days can be selected.</Notice.Text>
               </Notice>
             )}
           </DateRangePicker.Popper>

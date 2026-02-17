@@ -84,7 +84,7 @@ const Demo = () => {
                   borderRadius: '0 0 6px 6px',
                 }}
               >
-                <Notice.Label tag={Warning} aria-hidden={false} aria-label='Warning:' role='img' />
+                <Notice.Label tag={Warning} aria-hidden={false} aria-label='Warning: ' role='img' />
                 <Notice.Text>Currently, data can be displayed for no more than 60 days.</Notice.Text>
               </Notice>
             )}

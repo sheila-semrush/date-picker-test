@@ -19,7 +19,7 @@ const Demo = () => {
   tomorrow.setDate(tomorrow.getDate() + 1);
   const [range, setRange] = React.useState([]);
   const rangeDays = (range[1] - range[0]) / 1000 / 60 / 60 / 24;
-  const showWarning = rangeDays > 60;
+  const showWarning = rangeDays + 1 > 60;
   return (
     <>
       <h1>Welcome to the DatePicker testing page</h1>
